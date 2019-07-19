@@ -99,14 +99,30 @@ Author's custom styles
 .darck{
   background-color:  #987284;
 }
+.colorLight{
+  color: #F2D492;
+}
+.colorDark{
+  color: #987284;
+}
 .light{
   background-color:  #F2D492;
+}
+.para{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+}
+.capital{
+  font-family: 'Tangerine', cursive;
 }
 /*-- start of nav--*/
 .flex{
   display: flex;
   justify-content: space-between;
   justify-content: space-around;
+}
+.title{
+  text-align: center;
 }
 @media all and (max-width:600px) {
   .flex{
